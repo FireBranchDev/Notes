@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+header h2 {
+  margin-top: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.create-a-note {
+  text-align: center;
+}
+
+.create-a-note h3 {
+  font-size: 1.75rem;
+}
+
+.create-a-note-form,
+.edit-a-note-form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.create-a-note-form input,
+.edit-a-note-form input,
+.create-a-note-form textarea,
+.edit-a-note-form textarea {
+  margin: 10px 0;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
+
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+} 
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#notes h3 {
+  font-size: 1.75rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#notes .notes-list div {
+  text-align: left;
+  padding: 0 5%;
+}
+
+#notes .notes-list div h4 {
+  margin-bottom: 5px;
+  font-size: 1.35rem;
+}
+
+#notes .notes-list div p:first {
+  margin-bottom: 5px;
+}
+
+.edit-a-note {
+  margin-top: 50px;
+}
+
+
+.hide {
+  display: none;
+}
